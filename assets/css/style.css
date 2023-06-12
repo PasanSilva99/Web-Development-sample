@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.brand{
+    color: #184000;
+    align-self: center;
+    font-size: 24px;
+}
+
+.nav-links{ 
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link{
+    margin: 0 20px;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 5vw;
+}
+
+.hero-content, .hero-cards{
+    width: 50%;
+    padding: 5px;
+    display: flex;
+}
+
+.hero-content{
+    background-color: aqua;
+    flex-direction: column;
+}
+
+.hero-cards{
+    flex-direction: row;
+    background-color: cadetblue;
+}
